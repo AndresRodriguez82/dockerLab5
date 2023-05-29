@@ -11,7 +11,7 @@ services:
   - ./:/app
 
  mysqldb:
-  platform: "linux/amd64"
+  platform: "linux/x86_64"
   image: mysql
   ports:
   - 3306:3306
